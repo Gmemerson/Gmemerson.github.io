@@ -4,7 +4,7 @@ export const streams: Stream[] = [
   {
     title: 'Big Buck Bunny',
     description: 'BBB, 5 renditions',
-    url: 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8',
+    url: 'http://playback.imirun.net:8080//BIS/tracks-v1a1/mono.m3u8',
     manifestType: ManifestType.HLS,
     streamType: StreamType.VOD,
     fileType: FileType.MPEG2_TS,
