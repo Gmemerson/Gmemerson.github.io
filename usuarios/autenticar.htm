@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
-    $conexao = mysqli_connect("localhost", "", "");
-    mysqli_select_db($conexao, "https://gmemerson.github.io/usuarios/bancodedados.txt");
+    $conexao = mysqli_connect("https://gmemerson.github.io/usuarios/", "", "");
+    mysqli_select_db($conexao, "bancodedados.txt");
     session_start();
 ?>
 <html lang="pt-br">
