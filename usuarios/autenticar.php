@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
     $conexao = mysqli_connect("localhost", "root", "senha");
-    mysqli_select_db($conexao, "meu_banco");
+    mysqli_select_db($conexao, "https://gmemerson.github.io/usuarios/bancodedados.txt");
     session_start();
 ?>
 <html lang="pt-br">
@@ -10,10 +10,10 @@
         <title>Login</title>
         <script language="javascript">
             function sucesso(){
-                setTimeout("window.location='index.php'", 4000);
+                setTimeout("window.location='https://gmemerson.github.io/rcplay.html'", 4000);
             }
             function failed(){
-                setTimeout("window.location='login.html'", 4000);
+                setTimeout("window.location='https://gmemerson.github.io/usuarios/login.html'", 4000);
             }
         </script>
     </head>

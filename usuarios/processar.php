@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
     $conexao = mysqli_connect("localhost", "root", "senha");
-    mysqli_select_db($conexao, "meu_banco");
+    mysqli_select_db($conexao, "https://gmemerson.github.io/usuarios/bancodedados.txt");
 ?>
 <html lang="pt-br">
     <head>
@@ -16,7 +16,7 @@
             
             $inserir = "INSERT INTO usuarios (id, nome, usuario, senha) VALUES (NULL, '$nome', '$user', '$pass');";
             mysqli_query($conexao, $inserir) or die (mysqli_error($conexao));
-            echo"Você foi cadastrado com sucesso. Clique <a href='login.html'>aqui</a> para fazer log-in.";
+            echo"Você foi cadastrado com sucesso. Clique <a href='https://gmemerson.github.io/usuarios/login.html'>aqui</a> para fazer log-in.";
         ?>
     </body>
 </html>
