@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    $conexao = mysqli_connect("localhost", "root", "senha");
+    $conexao = mysqli_connect("localhost", "", "");
     mysqli_select_db($conexao, "https://gmemerson.github.io/usuarios/bancodedados.txt");
     session_start();
     
@@ -10,6 +10,13 @@
     }
 ?>
 <html dir="ltr"><!--<![endif]--><head>
+    <head>
+        <meta charset="utf-8">
+        <title>Index</title>
+    </head>
+    <body>
+        <h3> Logado. <a href="logout.php">Logout</a></h3>
+    </body>
 <meta charset="UTF-8">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
