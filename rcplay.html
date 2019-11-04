@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<?php
-    $conexao = mysqli_connect("localhost", "", "");
-    mysqli_select_db($conexao, "https://gmemerson.github.io/usuarios/bancodedados.txt");
-    session_start();
-    
-    if(!isset($_SESSION["usuario"]) || !isset($_SESSION["senha"])){
-        header"Location: https://gmemerson.github.io/usuarios/login.html";
-        exit;
-    }
-?>
 <html dir="ltr"><!--<![endif]--><head>
     <head>
         <meta charset="utf-8">
