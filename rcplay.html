@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<?php
+    $conexao = mysqli_connect("localhost", "root", "senha");
+    mysqli_select_db($conexao, "bancodedados.txt");
+    session_start();
+    
+    if(!isset($_SESSION["usuario"]) || !isset($_SESSION["senha"])){
+        header"Location: login.html";
+        exit;
+    }
+?>
 <html dir="ltr"><!--<![endif]--><head>
 <meta charset="UTF-8">
 
