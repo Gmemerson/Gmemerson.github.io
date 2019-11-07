@@ -1,5 +1,0 @@
-CREATE TABLE usuarios(
-id VARCHAR(1),
-nome VARCHAR(teste),
-usuario VARCHAR(teste),
-senha VARCHAR(123));
