@@ -1,5 +1,5 @@
 {
-  "name": "zuix-web-flix",
+  "name": "netfrix",
   "version": "1.0.0",
   "description": "Progressive Web App template with zero build steps.",
   "private": true,
@@ -17,10 +17,10 @@
   "author": "G-Labs",
   "contributors": [],
   "license": "MIT",
-  "homepage": "https://github.com/zuixjs",
+  "homepage": "https://github.com/Gmemerson",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zuixjs/zuix-web-flix"
+    "url": "https://github.com/Gmemerson/Gmemerson.github.io/tree/master/netfrixmerson/Gmemerson.github.io/netfrix/"
   },
   "devDependencies": {
     "http-server": "^0.11.1"

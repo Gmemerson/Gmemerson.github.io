@@ -5,7 +5,7 @@ let mainPage;
 let detailsPage;
 
 zuix.using('script', './service-worker.js');
-zuix.using('style', '//zuixjs.github.io/zkit/css/flex-layout-attribute.min.css');
+zuix.using('style', '//gmemerson.github.io/netfrix/css/flex-layout-attribute.min.css');
 zuix.using('style', './index.css');
 
 window.options = {
