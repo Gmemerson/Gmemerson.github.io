@@ -19,7 +19,7 @@ window.options = {
                 "backdrop_path":"images\/total_recall_landscape.jpg",
                 "overview":"Welcome to Rekall, the company that can turn your dreams into real memories. For a factory worker named Douglas Quaid, even though he's got a beautiful wife who he loves, the mind-trip sounds like the perfect vacation from his frustrating life - real memories of life as a super-spy might be just what he needs. But when the procedure goes horribly wrong, Quaid becomes a hunted man. Finding himself on the run from the police - controlled by Chancellor Cohaagen, the leader of the free world - Quaid teams up with a rebel fighter to find the head of the underground resistance and stop Cohaagen. The line between fantasy and reality gets blurred and the fate of his world hangs in the balance as Quaid discovers his true identity, his true love, and his true fate.",
                 "release_date":"2012-08-02",
-                "trailer": "https://youtube.com/watch?v=GljhR5rk5eY"
+                "trailer": "https://drive.google.com/file/d/1MdRFZcQfNe8vrafHStFUWwwC0aBhh0CI/preview"
             });
             showPage(0);
         }
