@@ -23,6 +23,6 @@
     "url": "https://github.com/Gmemerson/Gmemerson.github.io/tree/master/netfrixmerson/Gmemerson.github.io/netfrix/"
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^14.1.1"
   }
 }
